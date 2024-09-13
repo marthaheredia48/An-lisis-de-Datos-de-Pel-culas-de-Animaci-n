@@ -1,22 +1,35 @@
-# Análisis de Datos de Películas de Animación
+# Talking Data: Comparing Favorites Starter Code
+Fork this project to get started on the project.
 
-Este proyecto está diseñado para analizar datos sobre películas de animación utilizando Python y bibliotecas como `pandas` y `matplotlib`. El código carga un conjunto de datos de películas, filtra información específica sobre una película favorita y compara esa película con otras dentro del género de animación en términos de calificaciones de audiencia.
+### Project Requirements
+Your project should:
+- Use a variable to store and print the data of your favorite movie.
+- Use .loc to filter the data set to a genre, and store it in a new variable.
+- Calculate the min, max, mean, and median of a column.
+- Print how the min, max mean, and median compare to your favorite movie's value.
+- Create a histogram and use a print statement to describe it.
+- Create a scatter plot and use a print statement to describe the relationship between two variables.
 
-## Características del Proyecto:
-- **Carga y Verificación de Datos**: Lee un archivo CSV con datos de películas y verifica la información de una película favorita.
-- **Filtrado de Datos**: Filtra las películas de animación y proporciona estadísticas básicas sobre calificaciones.
-- **Análisis Estadístico**: Calcula y muestra la calificación mínima, máxima, media y mediana de las películas de animación.
-- **Visualización de Datos**: Crea y muestra gráficos para visualizar la distribución de calificaciones de audiencia y la relación entre calificaciones de audiencia y críticas.
+### Extensions
+You can extend your project further by:
+- Plot your favorite movie
+- Explore more data
+- Visualize data creatively
 
-## Tecnologías Utilizadas:
-- **Python**: Lenguaje de programación principal.
-- **pandas**: Biblioteca para la manipulación y análisis de datos.
-- **matplotlib**: Biblioteca para la creación de gráficos y visualizaciones.
+###  Attributions
+The rotten_tomatoes_movies.csv data was originally scrapped by Stefano Leone and is available on Kaggle for CC0:Public Domain Use: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_movies.csv
 
-## Cómo Usar:
-1. **Carga de Datos**: El archivo `rotten_tomatoes_movies.csv` debe estar en el mismo directorio que el script.
-2. **Ejecución del Script**: Corre el script de Python para analizar los datos y generar gráficos.
-3. **Interacción**: El script pedirá al usuario que presione Enter para ver más información y gráficos.
+*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
 
-## Aprendizaje:
-Este proyecto fue desarrollado como parte del curso "Self-Paced Program 2023" de Girls Who Code, donde aprendí sobre análisis de datos, filtrado de información, y visualización gráfica. Gracias a este curso, adquirí habilidades clave en la manipulación de datos y la creación de visualizaciones efectivas, aplicando estos conocimientos en este análisis de películas.
+---
+
+## File Overview
+
+### ← main.py
+This is where you will write your main program.
+
+### ← README.md
+README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
+
+### ← rotten_tomatoes_movies.csv
+This is a csv file containing data scraped from Rotten Tomatoes by Stefano Leone. The data was made modified to make student usability easier. Modifications include: Creating the year_released column based on original_release_date, dropping NA values, and selecting out the columns: movie_title, year_released, critic_rating, audience_rating, genres.
