@@ -20,3 +20,5 @@ Este proyecto está diseñado para analizar datos sobre películas de animación
 
 ## Aprendizaje:
 Este proyecto fue desarrollado como parte del curso "Self-Paced Program 2023" de Girls Who Code, donde aprendí sobre análisis de datos, filtrado de información, y visualización gráfica. Gracias a este curso, adquirí habilidades clave en la manipulación de datos y la creación de visualizaciones efectivas, aplicando estos conocimientos en este análisis de películas.
+
+https://replit.com/@marthah48/Talking-Data-Comparing-Favorites-Martha-H
